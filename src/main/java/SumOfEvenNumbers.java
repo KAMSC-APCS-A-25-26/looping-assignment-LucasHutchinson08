@@ -9,6 +9,8 @@ public class SumOfEvenNumbers {
 
         if (integer < 2) {
             System.out.println("Error - Integer must be greater than 2");
+            sc.close();
+            return;
         }
         int sum = 0;
         for (int i = 2; i <= integer; i += 2) {
